@@ -44,6 +44,6 @@ cd restaurant-page
 ```
 
 ## 🔗 Live Demo  
-👉 [View The Royal Prince Platter](https://your-username.github.io/restaurant-page/)
+👉 [View The Royal Prince Platter]([https://your-username.github.io/restaurant-page/](https://tejanshu9.github.io/restaurant-page/))
 
 
