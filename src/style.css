@@ -1,0 +1,181 @@
+/* Reset Browser Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Layout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf7f2;   /* Light warm background */
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header / Navbar */
+.page-header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.page-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Nav Buttons */
+.nav-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background-color: #e7d8c9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.nav-btn:hover {
+    background-color: #d6c2af;
+}
+
+.nav-btn:active {
+    transform: scale(0.97);
+}
+
+/* Main content container */
+#content {
+    width: 90%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Home Page Styles */
+.restaurant-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.restaurant-tag {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.restaurant-image {
+    display: block;
+    width: 300px;
+    max-width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+/* Menu container layout */
+.menu-item {
+    background: #ffffff;
+    padding: 1.2rem 1.5rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Slight hover animation */
+.menu-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* Menu title */
+.menu-title {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 0.4rem;
+}
+
+/* Description */
+.menu-desc {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+}
+
+/* Price */
+.menu-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #8b4513; /* Warm brown tone */
+}
+
+/* Contact Page Container */
+.contact-container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+/* Title */
+.contact-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* About description */
+.contact-about {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: center;
+    color: #555;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+/* Sections: Address + Contact Info */
+.contact-section {
+    background: #faf7f2;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+/* Section headings */
+.contact-section h3 {
+    margin-bottom: 0.5rem;
+    color: #8b4513; /* Warm brown tone like menu */
+    font-size: 1.3rem;
+}
+
+/* Paragraph inside sections */
+.contact-section p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Strong text (bold labels: phone, email) */
+.contact-section p strong {
+    color: #333;
+}
