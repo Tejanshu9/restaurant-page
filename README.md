@@ -44,6 +44,4 @@ cd restaurant-page
 ```
 
 ## 🔗 Live Demo  
-👉 [View The Royal Prince Platter]([https://your-username.github.io/restaurant-page/](https://tejanshu9.github.io/restaurant-page/))
-
-
+[![Live Demo](https://img.shields.io/badge/View%20Site-Live-brightgreen?style=for-the-badge)](https://tejanshu9.github.io/restaurant-page/)
